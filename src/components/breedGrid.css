@@ -1,0 +1,39 @@
+.action-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.breed-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.breed-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.breed-card h2 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.breed-image {
+  max-width: 100%;
+  height: auto;
+  width: "100px";
+  height: "100px";
+}
+
+.default-image {
+  /* Style for default images, if needed */
+  max-width: 100%;
+  height: auto;
+  /* Add styles such as a placeholder or icon for default images */
+}
