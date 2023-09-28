@@ -1,45 +1,21 @@
-# MVP Fullstack basico frontend
+# MVP PUC-Rio Doghouses - Front-end
 
-That's a React JS + Vite project
+Projeto de MVP do módulo Desenvolvimento Back-end Avaçando da **Pós-Graduação em Desenvolvimento Full Stack**, do Departamento de Informática da PUC-Rio.
 
-## Try it - Installation and Setup Instructions
+Aluno: **Rodrigo dos Santos Coelho** (*https://www.linkedin.com/in/rodrigoscoelho/*)
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+---
+## Primeiros passos
 
-```bash
-git clone https:github.com/username/mvp-fullstack-basico-frontend
+Após clonar o repositório do GitHub (*https://github.com/CoelhoSRodrigo/mvp-full-stack-backtend-advanced-front/*), é necessário ir ao diretório raiz, pelo terminal do Visual Studio Code, para que possa executar os comandos descritos abaixo.  **Lembrando que é necessário o Nodejs, ou o npm, instalado.**,
+
+React JS + Vite project
+
 ```
-
-## Usage
-```bash
 npm install
 ```
-
-### Development
-
-```bash
+```
 npm run dev
 ```
 
-### Build
-
-```bash
-npm run build
-```
-
-To Visit App:
-
-`http://localhost:5173/`
-
-Runs the app in the development mode.
-Open http://localhost:5173 to view it in your browser.
-
-### Extra Infos
-
-During development the page will reload when you make changes.
-
-`npm run build`
-
-The Dockerfile builds the app for production to the dist folder.
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+> O primeiro comando `npm install`, iremos utilizar para a criação do ambiente virtual, já o segundo comando, `npm start`, será para ativá-lo.
